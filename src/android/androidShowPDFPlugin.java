@@ -1,11 +1,13 @@
 package cordova.plugin.androidShowPDFPlugin;
 
 import android.content.Intent;
+import android.util.Log;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
 import org.json.JSONArray;
 import org.json.JSONException;
+
 /**
  * This class echoes a string called from JavaScript.
  */
@@ -15,6 +17,7 @@ public class androidShowPDFPlugin extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if (action.equals("coolMethod")) {
             String message = args.getString(0);
+			Log.d("TAG","PDF Path:"+message);
             this.coolMethod(message, callbackContext);
             return true;
         }

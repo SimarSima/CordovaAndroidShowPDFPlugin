@@ -21,7 +21,7 @@
 		
 		<config-file parent="application" target="AndroidManifest.xml">
 			<activity
-				android:name="cordova.plugin.android.plugin.androidShowPDFPlugin.Main"
+				android:name="cordova.plugin.androidShowPDFPlugin.Main"
 				android:exported="true">
 			</activity>
 		</config-file>
