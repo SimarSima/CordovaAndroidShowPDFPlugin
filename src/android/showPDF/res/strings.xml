@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidPDFView</string>
+    <string name="error_path">PDF Path Error</string>
+</resources>
