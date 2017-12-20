@@ -16,7 +16,7 @@
 		
 		<config-file parent="/*" target="AndroidManifest.xml">
 			<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+            		<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 		</config-file>
 		
 		<config-file parent="application" target="AndroidManifest.xml">
