@@ -30,6 +30,7 @@ public class Main extends Activity implements OnPageChangeListener, OnLoadComple
         fileURL = intent.getStringExtra("PDF_PATH");
         if(fileURL!=null&&!"".equals(fileURL)){
             File pdfFile = new File(fileURL);
+			pdfFile=new File(pdfFile.getAbsolutePath());
             pdfView.fromFile(pdfFile)
                     .defaultPage(0)
                     .onPageChange(this)
