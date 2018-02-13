@@ -2,6 +2,10 @@
 <plugin id="cordova.plugin.androidShowPDFPlugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>androidShowPDFPlugin</name>
 	
+	<engines>
+        <engine name="cordova-android" version=">=6.3.0" />
+    </engines>
+	
 	<js-module name="androidShowPDFPlugin" src="www/androidShowPDFPlugin.js">
 		<clobbers target="cordova.plugins.androidShowPDFPlugin" />
 	</js-module>
