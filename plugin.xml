@@ -27,7 +27,7 @@
 		</config-file>
 		<source-file src="src/android/androidShowPDFPlugin.java" target-dir="src/cordova/plugin/androidShowPDFPlugin" />
 		<source-file src="src/android/showPDF/Main.java" target-dir="src/cordova/plugin/androidShowPDFPlugin"/>
-		<resource-file src="src/android/showPDF/layout/activity_androidshowpdfplugin_main.xml" target-dir="res/layout"/>
+		<source-file src="src/android/showPDF/layout/activity_androidshowpdfplugin_main.xml" target-dir="res/layout"/>
 		<framework src="src/android/showPDF/rules.gradle" custom="true" type="gradleReference" />
 		<hook type="after_prepare" src="src/android/showPDF/hook/configure-android.js"/>
 	</platform>
