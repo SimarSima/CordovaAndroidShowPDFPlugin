@@ -36,8 +36,8 @@ module.exports = function (ctx) {
     
     var platformRoot = path.join(ctx.opts.projectRoot, 'platforms/android');
     var fileImportR = [
-		{filePath: 'app/src/cordova/plugin/androidShowPDFPlugin/Main.java', importStatement: 'simar.android.showpdf.R'},
-		{filePath: 'app/src/cordova/plugin/androidShowPDFPlugin/androidShowPDFPlugin.java', importStatement: 'simar.android.showpdf.R'}
+		{filePath: 'app/src/java/cordova/plugin/androidShowPDFPlugin/Main.java', importStatement: 'simar.android.showpdf.R'},
+		{filePath: 'app/src/java/cordova/plugin/androidShowPDFPlugin/androidShowPDFPlugin.java', importStatement: 'simar.android.showpdf.R'}
     ];
 
 
