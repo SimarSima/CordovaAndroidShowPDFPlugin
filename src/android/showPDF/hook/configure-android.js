@@ -50,6 +50,7 @@ module.exports = function (ctx) {
     	var fullfilename = path.join(platformRoot, val.filePath);
     	console.log('*  Inject in file: ' + fullfilename + ' the import statemet: ' + val.importStatement + '  *');
     	if (fs.existsSync(fullfilename)) {
+		console.log('~~~Replace~~~~');
     		replace_string_in_file(fullfilename, val.importStatement, replaceWith);
     	} else {
             console.error('* missing file:', fullfilename);
