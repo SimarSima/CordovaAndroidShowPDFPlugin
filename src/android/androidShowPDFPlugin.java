@@ -32,7 +32,7 @@ public class androidShowPDFPlugin extends CordovaPlugin {
   private void coolMethod(String message, CallbackContext callbackContext) {
     if (message != null && !"".equals(message)) {
       File file = new File(message);
-      file = new File(file.getAbsolutePath());
+      //file = new File(file.getAbsolutePath());
       if (file.exists()) {
         Intent intent = new Intent();
         intent.setClass(cordova.getActivity(), Main.class);
